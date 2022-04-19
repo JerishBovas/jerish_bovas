@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-link {
+  color: rgba(242, 245, 247, 0.75);
+}
+.nav-link:hover{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.nav-link:active{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.nav-link:visited{
+  color: rgba(242, 245, 247, 0.75);
+}
