@@ -66,6 +66,28 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-4 shadow">
+            <img id='mainImgView' src={WeatherAppAndroid}></img>
+            <div>
+              <p><strong>Weather App</strong> is an Android application built using Java.  It shows real time weather data for that particular location.</p>
+              <div class="">
+                <a class="btn btn-dark" target={'_blank'} href="https://github.com/JerishBovas/Treasureventure" role="button">GitHub <i class="fa fa-brands fa-github"></i></a>
+                <a href="#" class="btn btn-dark" target={'_blank'} style={{float: 'right', clear: 'both'}} role="button">Visit Site</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 shadow">
+            <img id='mainImgView' src={SpaceX}></img>
+            <div>
+              <p><strong>SpaceX Missions</strong> is a web application built using Angular.  It uses spaceX API to list their past and upcoming missions.</p>
+              <div class="">
+              <a class="btn btn-dark" target={'_blank'} href="https://github.com/JerishBovas/Treasureventure" role="button">GitHub <i class="fa fa-brands fa-github"></i></a>
+                <a href="#" class="btn btn-dark" target={'_blank'} style={{float: 'right', clear: 'both'}} role="button">Visit Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
