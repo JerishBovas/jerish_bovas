@@ -6,7 +6,7 @@
     overflow: hidden;
     border-radius: 10px;
     width: 25vw;
-    min-height: 500px;
+    min-height: 550px;
 }
 .col-3 #mainImgView {
     width: 100%;
@@ -21,4 +21,15 @@
 }
 .col-3 div {
     padding: 20px;
+}
+
+.lng-holder {
+    padding: 0px;
+}
+
+.language {
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
