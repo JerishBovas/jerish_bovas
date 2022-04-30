@@ -1,0 +1,22 @@
+.col-4 {
+    margin: auto;
+    padding: 0;
+    margin-top: 50px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.col-4 #mainImgView {
+    width: 100%;
+}
+.col-4 #subImgView {
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: -88%;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.col-4 div {
+    padding: 20px;
+}

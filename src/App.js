@@ -8,7 +8,7 @@ import logo from './logo_square.svg';
 function App() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid fs-4">
           <a class="navbar-brand ms-5 d-flex" style={{ color: 'rgba(242, 245, 247, 0.90)'}} href="https://www.jerishbovas.com">
             <img src={logo} style={{margin: 'auto'}} alt="logo_image" height="40rem"/>
@@ -49,8 +49,12 @@ function App() {
           </div>
         </div>
       </nav>
-      <Summary/>
-      <Projects/>
+      <div style={{backgroundImage: "radial-gradient(ellipse farthest-side at bottom,rgb(37, 0, 224), rgb(56, 7, 135))", height: "100vh"}}>
+        <Summary/>
+      </div>
+      <div style={{backgroundColor: 'whitesmoke', color: 'black', padding: 50}}>
+        <Projects/>
+      </div>
       <Skills/>
       <Contact/>
     </div>

@@ -51,3 +51,9 @@
 .nav-link:visited{
   color: rgba(242, 245, 247, 0.75);
 }
+
+.navbar {
+  background-color: rgba(56, 7, 135,0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
