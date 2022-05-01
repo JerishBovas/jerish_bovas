@@ -13,7 +13,11 @@ export default function Skills() {
             })
           }
       </div>
-      <div></div>
+      <div className='d-flex justify-content-around'>
+        <button className='rescovtrans'>Resume</button>
+        <button className='rescovtrans'>Cover Letter</button>
+        <button className='rescovtrans'>Transcript</button>
+      </div>
     </div>
   )
 }
