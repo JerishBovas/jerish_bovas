@@ -53,11 +53,34 @@
 }
 
 .navbar {
-  background-color: rgba(44, 0, 138,0.7);
+  background-color: rgb(44, 0, 138);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
   transition: top 0.3s;
+}
+
+#contactmebtn {
+  padding: 15px 25px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+  background-color: rgb(3, 69, 183);
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+#contactmebtn:hover {
+  padding: 15px 25px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  background-color: white;
+  font-size: x-large;
+  font-weight: bold;
+  transition: 0.3s;
 }

@@ -8,42 +8,42 @@ import logo from './logo_square.svg';
 function App() {
   return (
     <div>
-      <nav id='nav' class="navbar navbar-expand-lg">
-        <div class="container-fluid fs-4">
-          <a class="navbar-brand ms-5 d-flex" style={{ color: 'rgba(242, 245, 247, 0.90)'}} href="https://www.jerishbovas.com">
+      <nav id='nav' className="navbar navbar-expand-lg">
+        <div className="container-fluid fs-4">
+          <a className="navbar-brand ms-5 d-flex" style={{ color: 'rgba(242, 245, 247, 0.90)'}} href="https://www.jerishbovas.com">
             <img src={logo} style={{margin: 'auto'}} alt="logo_image" height="40rem"/>
-            <span style={{fontFamily: 'cursive',}} class="ms-3 fs-2">Jerish Bovas</span>
+            <span style={{fontFamily: 'cursive',}} className="ms-3 fs-2">Jerish Bovas</span>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav m-auto">
-              <li class="nav-item m-1">
-                <a class="nav-link" href="#summary">Summary</a>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav m-auto">
+              <li className="nav-item m-1">
+                <a className="nav-link" href="#summary">Summary</a>
               </li>
-              <li class="nav-item m-1">
-                <a class="nav-link" href="#projects">Projects</a>
+              <li className="nav-item m-1">
+                <a className="nav-link" href="#projects">Projects</a>
               </li>
-              <li class="nav-item m-1">
-                <a class="nav-link" href="#skills">Skills</a>
+              <li className="nav-item m-1">
+                <a className="nav-link" href="#skills">Skills</a>
               </li>
-              <li class="nav-item m-1">
-                <a class="nav-link" href='#contact'>Contact</a>
+              <li className="nav-item m-1">
+                <a className="nav-link" href='#contact'>Contact</a>
               </li>
             </ul>
-            <ul class="navbar-nav ml-auto me-5">
-              <li class="nav-item me-3">
-                <a class="nav-link" target="_blank" rel='noreferrer' href="https://github.com/JerishBovas?tab=repositories"><i class="fa fa-brands fa-github"></i></a>
+            <ul className="navbar-nav ml-auto me-5">
+              <li className="nav-item me-3">
+                <a className="nav-link" target="_blank" rel='noreferrer' href="https://github.com/JerishBovas?tab=repositories"><i className="fa fa-brands fa-github"></i></a>
               </li>
-              <li class="nav-item me-3">
-                <a class="nav-link" target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/jerishbovas/"><i class="fa fa-brands fa-linkedin"></i></a>
+              <li className="nav-item me-3">
+                <a className="nav-link" target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/jerishbovas/"><i className="fa fa-brands fa-linkedin"></i></a>
               </li>
-              <li class="nav-item me-3">
-                <a class="nav-link" target="_blank" rel='noreferrer' href="https://twitter.com/bovasjerish"><i class="fa fa-brands fa-twitter"></i></a>
+              <li className="nav-item me-3">
+                <a className="nav-link" target="_blank" rel='noreferrer' href="https://twitter.com/bovasjerish"><i className="fa fa-brands fa-twitter"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" target="_blank" rel='noreferrer' href="https://www.youtube.com/channel/UChPApQMTIOvdRR9M7VMPxDw"><i class="fa fa-brands fa-youtube"></i></a>
+              <li className="nav-item">
+                <a className="nav-link" target="_blank" rel='noreferrer' href="https://www.youtube.com/channel/UChPApQMTIOvdRR9M7VMPxDw"><i className="fa fa-brands fa-youtube"></i></a>
               </li>
             </ul>
           </div>
@@ -55,8 +55,15 @@ function App() {
       <div style={{backgroundColor: 'whitesmoke', color: 'black', padding: 50}}>
         <Projects/>
       </div>
-      <Skills/>
-      <Contact/>
+      <div style={{backgroundColor: 'white', color: 'black', padding: 50}}>
+        <Skills/>
+      </div>
+      <div style={{backgroundColor: 'rgb(44, 0, 138)', color: 'white', padding: 50}}>
+        <Contact/>
+          <div className='text-center'>
+            <p>Copyright 2022 Jerish Bradly Bovas. All rights reserved.</p>
+          </div>
+      </div>
     </div>
   );
 }
