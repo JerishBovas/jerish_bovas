@@ -8,7 +8,6 @@ import Recipe from './img/recipeApplication.png'
 import Sports from './img/SportsSoft.png'
 import Simply from './img/SimplyClassified.png'
 import event from './img/Event Management System.png'
-import Server from './img/Servertuto.png'
 import GDGWebApp from './img/GDGWebApp.png'
 
 const ProjectItems = () => {
