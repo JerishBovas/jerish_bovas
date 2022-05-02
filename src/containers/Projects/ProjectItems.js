@@ -81,13 +81,6 @@ const ProjectItems = () => {
             "description": " is a Desktop Application built using C# .NET.  It manages events, customers and their RVSP's.",
             "languages": ["C#", ".NET"],
             "github": "https://github.com/JerishBovas/CSAssignmentTwo",
-        },
-        {
-            "mainImg": Server,
-            "title": "Server Tutor",
-            "description": " is a tutorial website built using basic HTML and CSS.  It gives tutorial on how to build your own server at home.",
-            "languages": ["HTML", "CSS"],
-            "github": "https://github.com/JerishBovas/ServerTuto",
         }
     ]
 
