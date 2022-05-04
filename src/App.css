@@ -40,25 +40,21 @@
 .nav-link {
   color: rgba(242, 245, 247, 0.75);
 }
+#summarynav {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
 .nav-link:hover{
   color: rgb(255, 255, 255);
-  font-weight: bold;
-}
-.nav-link:active{
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-}
-.nav-link:visited{
-  color: rgba(242, 245, 247, 0.75);
 }
 
 .navbar {
   background-color: rgb(44, 0, 138);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 100%;
   transition: top 0.3s;
 }
 #contactmebtn button  {

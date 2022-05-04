@@ -19,7 +19,7 @@ export default function Contact() {
   };
 
   return (
-    <div id='contact'>
+    <div>
       <h1 className="text-center">Contact</h1>
       <div className="container mt-5 mb-5">
           <div style={{width: '90%',margin: 'auto'}} className="row container">

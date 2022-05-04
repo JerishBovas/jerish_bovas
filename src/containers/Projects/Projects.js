@@ -5,7 +5,7 @@ import ProjectItems from './ProjectItems'
 
 export default function Projects() {
   return (
-    <div id='projects'>
+    <div>
       <h1 className="text-center">Projects</h1>
       <div className="row">
         {

@@ -4,7 +4,7 @@ import skillsData from './Skills.json'
 
 export default function Skills() {
   return (
-    <div id='skills'>
+    <div>
       <h1 className="text-center">Skills</h1>
       <div className='d-flex flex-wrap mt-4 mb-4 justify-content-between'>
           {

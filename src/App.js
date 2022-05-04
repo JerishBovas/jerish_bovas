@@ -20,16 +20,16 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav m-auto">
               <li className="nav-item m-1">
-                <a className="nav-link" href="#summary">Summary</a>
+                <a id='summarynav' className="nav-link" href="#summary">Summary</a>
               </li>
               <li className="nav-item m-1">
-                <a className="nav-link" href="#projects">Projects</a>
+                <a id='projectsnav' className="nav-link" href="#projects">Projects</a>
               </li>
               <li className="nav-item m-1">
-                <a className="nav-link" href="#skills">Skills</a>
+                <a id='skillsnav' className="nav-link" href="#skills">Skills</a>
               </li>
               <li className="nav-item m-1">
-                <a className="nav-link" href='#contact'>Contact</a>
+                <a id='contactnav' className="nav-link" href='#contact'>Contact</a>
               </li>
             </ul>
             <ul className="navbar-nav ml-auto me-5">
@@ -49,16 +49,19 @@ function App() {
           </div>
         </div>
       </nav>
-      <div style={{backgroundImage: "radial-gradient(ellipse farthest-side at bottom,rgb(43, 0, 255), rgb(44, 0, 138))", height: "100vh"}}>
+      <div id='summary' style={{backgroundImage: "radial-gradient(ellipse farthest-side at bottom,rgb(43, 0, 255), rgb(44, 0, 138))", height: "100vh"}}>
         <Summary/>
       </div>
-      <div style={{backgroundColor: 'whitesmoke', color: 'black', padding: 50}}>
+      <div id='projects' style={{backgroundColor: 'whitesmoke', color: 'black', padding: 50, paddingTop: 100, paddingBottom: 100}}>
         <Projects/>
       </div>
-      <div style={{backgroundColor: 'white', color: 'black', padding: 50}}>
+      <hr
+        style={{backgroundColor: 'black', margin: 0}}
+      ></hr>
+      <div id='skills' style={{backgroundColor: 'whitesmoke', color: 'black', padding: 50, paddingTop: 100, paddingBottom: 100}}>
         <Skills/>
       </div>
-      <div style={{backgroundColor: 'rgb(44, 0, 138)', color: 'white', padding: 50}}>
+      <div id='contact' style={{backgroundColor: 'rgb(44, 0, 138)', color: 'white', padding: 50}}>
         <Contact/>
           <div className='text-center'>
             <p>Copyright 2022 Jerish Bradly Bovas. All rights reserved.</p>
