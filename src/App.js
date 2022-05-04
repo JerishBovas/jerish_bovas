@@ -52,7 +52,7 @@ function App() {
       <div id='summary' style={{backgroundImage: "radial-gradient(ellipse farthest-side at bottom,rgb(43, 0, 255), rgb(44, 0, 138))", height: "100vh"}}>
         <Summary/>
       </div>
-      <div id='projects' style={{backgroundColor: 'whitesmoke', color: 'black', padding: 50, paddingTop: 100, paddingBottom: 100}}>
+      <div id='projects' style={{backgroundColor: '#d3d3d3', color: 'black', padding: 50, paddingTop: 100, paddingBottom: 100}}>
         <Projects/>
       </div>
       <hr

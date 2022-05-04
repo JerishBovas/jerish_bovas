@@ -55,7 +55,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  transition: top 0.3s;
+  transition: top 0.1s;
 }
 #contactmebtn button  {
   padding: 15px 25px;
@@ -67,7 +67,7 @@
   background-color: rgb(3, 69, 183);
   font-size: 20px;
   font-weight: bold;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 #contactmebtn:hover button{
   padding: 15px 25px;

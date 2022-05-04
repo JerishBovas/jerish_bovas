@@ -9,6 +9,7 @@ import Sports from './img/SportsSoft.png'
 import Simply from './img/SimplyClassified.png'
 import event from './img/Event Management System.png'
 import GDGWebApp from './img/GDGWebApp.png'
+import Portfolio from './img/Portfolio.png'
 
 const ProjectItems = () => {
     const Items = [
@@ -29,6 +30,14 @@ const ProjectItems = () => {
             "languages": ["React-Native", "JavaScript"],
             "github": "https://github.com/JerishBovas/WeatherApplication-ReactNative",
             "iOS" : "https://apps.apple.com/app/weather-app-rn/id1600376727",
+        },
+        {
+            "mainImg": Portfolio,
+            "title": "This Website",
+            "description": " is one of my personal favorites built using reactJS.  It has rich UI handcrafted myself using built-in react components and HTML",
+            "languages": ["ReactJS"],
+            "github": "https://github.com/JerishBovas/jerish_bovas",
+            "website" : "https://www.jerishbovas.com",
         },
         {
             "mainImg": GDGWebApp,
