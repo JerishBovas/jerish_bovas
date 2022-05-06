@@ -1,1 +1,13 @@
-["Logical Thinking", "Problem Solving", "Patience & Attention", "Time Management", "Team Collaboration", "Interpersonal Skills", "Azure Developer", "GCP Developer", "iOS", "Android", "Linux", "Windows", "Swift", "JavaScript", "C#", "Python", "Java", "PHP", "Machine-Learning", "Artificial Intelligence", "NodeJS", "React", "React-Native", "Angular", "Ionic", "Xamarin", ".NET", "ASP.NET", "Spring Boot", "MySQL", "MongoDB", "SQL Server", "H2 Database", "Git", "GitHub", "Front-end", "Back-end", "Full Stack", "Mobile", "Web", "Desktop"]
+[
+    [["C#", ".NET", "ASP.NET", "Xamarin"],
+    ["Swift", "SwiftUI", "React-Native", "Ionic"]],
+    [["JavaScript", "ReactJS", "NodeJS", "Angular"],
+    ["Java", "Spring Boot", "Kotlin", "Android"]],
+    [["Python", "ML", "AI", "Deep Learning"],
+    ["iOS", "Android", "Linux", "Windows", "macOS"]],
+    [["MySQL", "MongoDB", "SQL Server", "H2"],
+    ["Git", "GitHub", "Azure DevOps"]],
+    [["XCode", "Visual Studio", "Android Studio"],
+    ["Azure", "Google Cloud", "Play Store", "App Store Connect"]],
+    [["IntelliJ Idea", "VS Code", "Postman"],["Jenkins", "Travis CI", "GitHub Actions", "Azure pipelines"]]
+]
