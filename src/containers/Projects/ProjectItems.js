@@ -20,7 +20,7 @@ const ProjectItems = () => {
             "description": " is an iOS application built using Swift and SwiftUI.  It's a game where users can choose a location nearby and find the item specified in that location.",
             "languages": ["Swift", "SwiftUI"],
             "github": "https://github.com/JerishBovas/Treasureventure",
-            "iOS" : "https://apps.apple.com/app/",
+            "status": "coming soon on App Store"
         },
         {
             "mainImg": Clouds,
@@ -30,6 +30,7 @@ const ProjectItems = () => {
             "languages": ["React-Native", "JavaScript"],
             "github": "https://github.com/JerishBovas/WeatherApplication-ReactNative",
             "iOS" : "https://apps.apple.com/app/weather-app-rn/id1600376727",
+            "android": "https://play.google.com/store/apps/details?id=com.jerishbovas.weatherapplication"
         },
         {
             "mainImg": Portfolio,
@@ -52,7 +53,7 @@ const ProjectItems = () => {
             "title": "SpaceX Missions",
             "description": " is a web application built using Angular.  It uses spaceX API to list their past and upcoming missions, details of the missions and launch dates.",
             "languages": ["Angular", "SpaceX API"],
-            "github": "https://github.com/JerishBovas/101239138-lab-test2-comp3133",
+            "github": "https://github.com/JerishBovas/SpaceX-Missions",
             "website" : "https://spacex.jerishbovas.com",
         },
         {
@@ -60,7 +61,7 @@ const ProjectItems = () => {
             "title": "Employee Manager",
             "description": " is a web application built using React as frontend and NodeJS, MongoDB backend.  It helps in managing employees throught the company.",
             "languages": ["React", "NodeJS", "MongoDB"],
-            "github": "https://github.com/JerishBovas/101239138_assignment2_frontend",
+            "github": "https://github.com/JerishBovas/EmployeeManagement_frontend",
         },
         {
             "mainImg": Recipe,
