@@ -33,8 +33,8 @@ export default function Skills() {
           }
       </div>
       <div className='d-flex mt-5 justify-content-around'>
-        <button className='rescovtrans'>Resume</button>
-        <button className='rescovtrans'>Transcript</button>
+        <a rel="noreferrer" target={'_blank'} href='https://www.icloud.com/iclouddrive/001Cwpfe8KAR6LIcL4rqlmq3Q#Final_Transcript'><button className='rescovtrans'>Resume</button></a>
+        <a rel="noreferrer" target={'_blank'} href='https://www.icloud.com/iclouddrive/001Cwpfe8KAR6LIcL4rqlmq3Q#Final_Transcript'><button className='rescovtrans'>Transcript</button></a>
       </div>
     </div>
   )
