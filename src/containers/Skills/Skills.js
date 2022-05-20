@@ -11,7 +11,7 @@ export default function Skills() {
             skillsData.map( row => {
               return(
                 <div className='row'>
-                  <div className='col d-flex flex-wrap justify-content-center'>
+                  <div className='col d-flex flex-wrap justify-content-end'>
                     {
                       row[0].map( lang => {
                         return <span key={lang.toString()} className="language m-2">{lang}</span>
@@ -19,7 +19,7 @@ export default function Skills() {
                     }
                   </div>
                   {
-                    row[1] && (<div className='col d-flex flex-wrap justify-content-center'>
+                    row[1] && (<div className='col d-flex flex-wrap justify-content-start'>
                       {
                         row[1].map( lang => {
                           return <span key={lang.toString()} className="language m-2">{lang}</span>

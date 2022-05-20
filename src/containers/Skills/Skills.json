@@ -1,13 +1,12 @@
 [
-    [["C#", ".NET", "ASP.NET", "Xamarin"],
+    [["C#", ".NET", "ASP.NET", ".NET Core"],
     ["Swift", "SwiftUI", "React-Native", "Ionic"]],
     [["JavaScript", "ReactJS", "NodeJS", "Angular"],
-    ["Java", "Spring Boot", "Kotlin", "Android"]],
-    [["Python", "ML", "AI", "Deep Learning"],
-    ["iOS", "Android", "Linux", "Windows", "macOS"]],
+    ["Java", "Spring Boot", "Android", "Kotlin"]],
     [["MySQL", "MongoDB", "SQL Server", "H2"],
     ["Git", "GitHub", "Azure DevOps"]],
     [["XCode", "Visual Studio", "Android Studio"],
     ["Azure", "Google Cloud", "Play Store", "App Store Connect"]],
-    [["IntelliJ Idea", "VS Code", "Postman"],["Jenkins", "Travis CI", "GitHub Actions", "Azure pipelines"]]
+    [["IntelliJ Idea", "VS Code", "Postman"],
+    ["Jenkins", "Travis CI", "GitHub Actions", "Azure pipelines"]]
 ]
