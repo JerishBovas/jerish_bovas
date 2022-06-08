@@ -49,7 +49,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <div id='summary' style={{backgroundImage: "radial-gradient(ellipse farthest-side at bottom,rgb(43, 0, 255), rgb(44, 0, 138))", height: "100vh"}}>
+      <div id='summary' style={{backgroundImage: "linear-gradient(#bf46a5 0%,#7029b2 50%,rgb(44, 0, 138) 100%)", height: "100vh"}}>
         <Summary/>
       </div>
       <div id='projects' style={{backgroundColor: '#d3d3d3', color: 'black', padding: 50, paddingTop: 100, paddingBottom: 50}}>

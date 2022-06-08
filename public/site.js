@@ -4,7 +4,7 @@ window.onscroll = function() {
 
   if (document.body.scrollTop > height || document.documentElement.scrollTop > height) {
     nav.style.boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2)";
-    nav.style.backgroundImage = 'radial-gradient(circle at center,rgb(43, 0, 255), rgb(44, 0, 138))'
+    nav.style.backgroundColor = 'rgb(44, 0, 138)'
   } else {
     nav.style.boxShadow = "none";
     nav.style.backgroundImage = 'none';
