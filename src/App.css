@@ -1,9 +1,9 @@
 .nav-link {
-  color: rgba(242, 245, 247, 0.75);
+  color: rgb(255, 255, 255);
 }
 #summarynav {
   color: rgb(255, 255, 255);
-  font-weight: bold;
+  font-weight: bolder;
 }
 .nav-link:hover{
   color: rgb(255, 255, 255);
@@ -20,23 +20,23 @@
 #contactmebtn button  {
   padding: 15px 25px;
   border: 0;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-decoration: none;
-  color: rgb(216, 216, 216);
-  background-color: rgb(3, 69, 183);
-  font-size: 20px;
+  color: rgba(44, 0, 138,1);
+  background-color: white;
+  font-size: x-large;
   font-weight: bold;
-  transition: 0.1s;
+  transition: 0.5s;
 }
 #contactmebtn:hover button{
   padding: 15px 25px;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   text-decoration: none;
-  color: rgb(10, 10, 10);
+  color: rgba(44, 0, 138,1);
   background-color: white;
   font-size: x-large;
   font-weight: bold;
-  transition: 0.3s;
+  transition: 0.5s;
 }

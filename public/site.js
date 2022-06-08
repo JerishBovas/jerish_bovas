@@ -60,4 +60,3 @@ function isInViewport(element) {
       rect.top <= (window.innerHeight || document.documentElement.clientHeight)/2
   );
 }
-

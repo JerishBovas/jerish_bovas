@@ -1,11 +1,16 @@
 import React from 'react'
 import './Skills.css'
-import skillsData from './Skills.json'
+import skillsData from './SkillItems'
 
 export default function Skills() {
+
+  var HD = {};
+  HD.nameof = function (obj) {
+    return Object.keys(obj)[0];
+  }
   return (
     <div>
-      <h1 className="text-center">Skills</h1>
+      <h1 className="text-center text-light">Skills</h1>
       <div className='mt-3'>
           {
             skillsData.map( row => {
@@ -14,7 +19,7 @@ export default function Skills() {
                   <div className='col d-flex flex-wrap justify-content-end'>
                     {
                       row[0].map( lang => {
-                        return <span key={lang.toString()} className="language m-2">{lang}</span>
+                        return <img className='m-3' height={48} title={lang[0]} alt={lang[0]} src={lang[1]}></img>
                       })
                     }
                   </div>
@@ -22,7 +27,7 @@ export default function Skills() {
                     row[1] && (<div className='col d-flex flex-wrap justify-content-start'>
                       {
                         row[1].map( lang => {
-                          return <span key={lang.toString()} className="language m-2">{lang}</span>
+                          return <img className='m-3' height={48} title={lang[0]} alt={lang[0]} src={lang[1]}></img>
                         })
                       }
                     </div>)

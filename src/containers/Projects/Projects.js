@@ -7,7 +7,7 @@ import ProjectItems from './ProjectItems'
 export default function Projects() {
   return (
     <div>
-      <h1 className="text-center">Projects</h1>
+      <h1 className="text-center text-light">Projects</h1>
       <div className="row">
         {
             ProjectItems.map(item => {
@@ -16,7 +16,7 @@ export default function Projects() {
             {
                 item.subImg && <img id='subImgView' alt='subImage' src={item.subImg}></img>
             }
-            <div>
+            <div style={{backgroundColor: "#ececec"}}>
               <p><strong>{item.title}</strong>{item.description}</p>
               <div className="d-flex justify-content-evenly lng-holder">
                   {

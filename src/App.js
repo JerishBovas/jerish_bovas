@@ -10,7 +10,7 @@ function App() {
     <div>
       <nav id='nav' className="navbar navbar-expand-lg">
         <div className="container-fluid fs-4">
-          <a className="navbar-brand ms-5 d-flex" style={{ color: 'rgba(242, 245, 247, 0.90)'}} href="https://www.jerishbovas.com">
+          <a className="navbar-brand ms-5 d-flex" style={{ color: 'white'}} href="https://www.jerishbovas.com">
             <img src={logo} style={{margin: 'auto'}} alt="logo_image" height="40rem"/>
             <span style={{fontFamily: 'cursive',}} className="ms-3 fs-2">Jerish Bovas</span>
           </a>
@@ -52,16 +52,13 @@ function App() {
       <div id='summary' style={{backgroundImage: "linear-gradient(#bf46a5 0%,#7029b2 50%,rgb(44, 0, 138) 100%)", height: "100vh"}}>
         <Summary/>
       </div>
-      <div id='projects' style={{backgroundColor: '#d3d3d3', color: 'black', padding: 50, paddingTop: 100, paddingBottom: 50}}>
+      <div id='projects' style={{backgroundColor: 'rgb(25, 25, 25)', color: 'black', padding: 50, paddingTop: 100, paddingBottom: 50, margin: "10px"}}>
         <Projects/>
       </div>
-      <hr
-        style={{backgroundColor: 'black', margin: 0}}
-      ></hr>
-      <div id='skills' style={{backgroundColor: 'whitesmoke', color: 'black', padding: 50, paddingTop: 100, paddingBottom: 50}}>
+      <div id='skills' style={{backgroundColor: 'rgb(25, 25, 25)', color: 'black', padding: 50, paddingTop: 100, paddingBottom: 50, margin: "10px"}}>
         <Skills/>
       </div>
-      <div id='contact' style={{backgroundColor: 'rgb(44, 0, 138)', color: 'white', padding: 50}}>
+      <div id='contact' style={{backgroundColor: 'rgb(44, 0, 138)', color: 'white', padding: 50, paddingTop: 50, paddingBottom: 50}}>
         <Contact/>
           <div className='text-center'>
             <p>Copyright 2022 Jerish Bradly Bovas. All rights reserved.</p>
