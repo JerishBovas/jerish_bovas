@@ -18,10 +18,10 @@ export default function Projects() {
             }
             <div style={{backgroundColor: "#ececec"}}>
               <p><strong>{item.title}</strong>{item.description}</p>
-              <div className="d-flex justify-content-evenly lng-holder">
+              <div className="d-flex justify-content-evenly">
                   {
                       item.languages.map(lang => {
-                        return <span key={lang.toString()} className="language">{lang}</span>
+                        return <img height={40} title={lang[0]} alt={lang[0]} src={lang[1]}></img>
                       })
                   }
                 </div>

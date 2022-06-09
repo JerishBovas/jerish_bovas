@@ -22,22 +22,3 @@
 .col-3 div {
     padding: 20px;
 }
-
-.lng-holder {
-    padding: 0px;
-}
-
-.language {
-    padding: 8px 20px;
-    text-align: center;
-    border-radius: 20px;
-    color: white;
-    background-color: #bf46a5;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transition: 0.3s;
-}
-.language:hover {
-    color: black;
-    background-color: whitesmoke;
-    transition: 0.3s;
-}
