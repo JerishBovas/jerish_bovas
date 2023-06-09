@@ -1,15 +1,17 @@
-import React, {useRef} from 'react'
+import React, {useRef, useState} from 'react'
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
   const form = useRef();
+  const [isCheck, setIsCheck] = useState(false)
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_d7xia8j', 'template_cowaovc', form.current, '5QDSUxpOTC_ex4zTv')
       .then((result) => {
+        setIsCheck(true)
         document.getElementById("user_name").value = ""
         document.getElementById("user_email").value = ""
         document.getElementById("message").value = ""
@@ -51,6 +53,9 @@ export default function Contact() {
                     </div>
                     <div style={{marginBottom: '20px'}}>
                       <input type="submit" value="Send"  className="btn btn-primary"/>
+                      {
+                        isCheck && <span style={{marginLeft: '10px'}}>&#10003;</span>
+                      }
                     </div>
                   </form>
                 </div>
