@@ -38,8 +38,8 @@ export default function Skills() {
           }
       </div>
       <div className='d-flex mt-5 justify-content-around'>
-        <a rel="noreferrer" target={'_blank'} href='https://github.com/JerishBovas/jerish_bovas/blob/main/public/Jerish%20Bovas.pdf'><button className='rescovtrans'>Resume</button></a>
-        <a rel="noreferrer" target={'_blank'} href='https://github.com/JerishBovas/jerish_bovas/blob/main/public/Final%20Transcript.pdf'><button className='rescovtrans'>Transcript</button></a>
+        <a rel="noreferrer" target={'_blank'} href='https://github.com/JerishBovas/jerish_bovas/blob/main/public/JerishBovas.pdf'><button className='rescovtrans'>Resume</button></a>
+        <a rel="noreferrer" target={'_blank'} href='https://github.com/JerishBovas/jerish_bovas/blob/main/public/FinalTranscript.pdf'><button className='rescovtrans'>Transcript</button></a>
       </div>
     </div>
   )
