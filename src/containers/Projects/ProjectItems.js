@@ -68,7 +68,7 @@ const ProjectItems = () => {
             "description": " is an iOS application built using Swift and SwiftUI.  It's a game where users can choose a location nearby and find the item specified in that location.",
             "languages": [["Swift", Swift], ["SwiftUI", SwiftUI], ["XCode", XCode]],
             "github": "https://github.com/JerishBovas/ScavengerHunt_iOS",
-            "status": "coming soon on App Store"
+            "iOS" : "https://apps.apple.com/us/app/scavenger-hunt/id1631131971"
         },
         {
             "mainImg": Clouds,
