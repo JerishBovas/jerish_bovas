@@ -4,11 +4,11 @@ window.onscroll = function() {
 
   if (document.body.scrollTop > height || document.documentElement.scrollTop > height) {
     nav.style.boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2)";
-    nav.style.backgroundColor = 'rgb(44, 0, 138)'
+    nav.style.backgroundColor = '#2c008a'
   } else {
     nav.style.boxShadow = "none";
     nav.style.backgroundImage = 'none';
-    nav.style.backgroundColor = 'rgba(44, 0, 138,0)';
+    nav.style.backgroundColor = '#2c008a';
   }
 
   if(isInViewport(document.getElementById('summary'))){
